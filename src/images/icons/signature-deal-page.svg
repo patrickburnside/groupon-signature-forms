@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <radialGradient id="b" cx="74.031%" cy="57.022%" r="296.127%" fx="74.031%" fy="57.022%" gradientTransform="matrix(.3077 0 0 .45224 .513 .312)">
+            <stop offset="0%" stop-color="#014F39"/>
+            <stop offset="100%" stop-color="#002B1F"/>
+        </radialGradient>
+        <path id="a" d="M0 0h52v16H0z"/>
+        <filter id="c" width="100%" height="100%" x="0%" y="0%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="d" x1="34.651%" x2="90.44%" y1="44.315%" y2="9.44%">
+            <stop offset="0%" stop-color="#002B1F"/>
+            <stop offset="100%" stop-color="#398873"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#333" fill-rule="nonzero" d="M7 6c.6 0 1 .4 1 1s-.4 1-1 1-1-.4-1-1 .4-1 1-1zm4 0c.6 0 1 .4 1 1s-.4 1-1 1-1-.4-1-1 .4-1 1-1zm4 0c.6 0 1 .4 1 1s-.4 1-1 1-1-.4-1-1 .4-1 1-1z"/>
+        <path stroke="#333" stroke-linejoin="round" stroke-width="2" d="M1 12V1h62v11M1 16v47h62V16"/>
+        <g transform="translate(6 16)">
+            <mask id="e" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <use fill="url(#b)" filter="url(#c)" xlink:href="#a"/>
+            <path fill="url(#d)" d="M-7 31L31 0H-7z" mask="url(#e)"/>
+        </g>
+        <path fill="#398873" d="M31 39h27v2H31zM31 45h27v2H31zM31 51h27v2H31zM27 39h2v2h-2z"/>
+        <circle cx="14" cy="46" r="7" stroke="#398873" stroke-width="2"/>
+        <path fill="#398873" d="M27 45h2v2h-2zM27 51h2v2h-2z"/>
+    </g>
+</svg>
